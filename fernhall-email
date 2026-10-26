@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>HTML Email Template Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+    <!--[if mso]>
+      <noscript>
+         <xml>
+            <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+         </xml>
+      </noscript>
+   <![endif]-->
+    <style type="text/css">
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        img {
+            border: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #e8fbfa;
+            font-size: 16px;
+        }
+
+        .content {
+            line-height: 20px;
+            font-size: 16px;
+        }
+
+        .bluelink {
+            text-decoration: none;
+            color: #1e5d7b !important;
+        }
+
+        span.Object {
+            color: inherit !important;
+        }
+
+        span.Object-hover {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        u+.body .gmail-blend-screen {
+            background: #000;
+            mix-blend-mode: screen;
+        }
+
+        u+.body .gmail-blend-difference {
+            background: #000;
+            mix-blend-mode: difference;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        a[x-apple-data-detectors=true] {
+            color: inherit !important;
+            text-decoration: inherit !important;
+        }
+
+        @media screen and (max-width: 599.98px) {
+            .padding {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .preheader-p-desktop {
+                display: none !important;
+            }
+
+            .preheader-p-mobile {
+                display: block !important;
+            }
+
+            .column {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .mobile-display-none {
+                display: none !important;
+            }
+
+            .mob-font-38 {
+                font-size: 38px !important;
+            }
+
+            .mob-font-22 {
+                font-size: 22px !important;
+            }
+
+            .mob-font-28 {
+                font-size: 28px !important;
+            }
+
+            .mob-pad-20 {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .two-btns-table-full-width {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .two-btns-table-full-width td {
+                text-align: center !important;
+            }
+
+            .btn-mob-full-width {
+                width: 100% !important;
+            }
+
+            .btn-mob-full-width a {
+                text-align: center !important;
+            }
+
+            .pad-bottom-mob {
+                padding-bottom: 20px !important;
+            }
+
+            .mob-pad-top {
+                padding-top: 28px !important;
+            }
+
+            .column-none {
+                display: none !important;
+            }
+
+            .mob-pad-top-18 {
+                padding-top: 18px !important;
+            }
+
+            .mob-align-left {
+                text-align: left !important;
+            }
+        }
+
+        @media screen and (max-width: 499.98px) {}
+
+        @media screen and (max-width: 399.98px) {}
+
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            .dm-body {
+                background-color: #0E1612 !important;
+            }
+
+            .dm-bg {
+                background-color: #15241C !important;
+            }
+
+            .dm-card {
+                background-color: #213329 !important;
+            }
+
+            .dm-text {
+                color: #EAF0E8 !important;
+            }
+
+            .dm-text-muted {
+                color: #A9BDAE !important;
+            }
+
+            .dm-accent {
+                color: #8FD3A9 !important;
+            }
+
+            .dm-btn-outline {
+                background-color: transparent !important;
+                color: #EAF0E8 !important;
+                border-color: #EAF0E8 !important;
+            }
+
+            .dm-logo-light {
+                display: none !important;
+            }
+
+            .dm-logo-dark {
+                display: inline-block !important;
+            }
+        }
+
+        [data-ogsb] .dm-body {
+            background-color: #0E1612 !important;
+        }
+
+        [data-ogsb] .dm-bg {
+            background-color: #15241C !important;
+        }
+
+        [data-ogsb] .dm-card {
+            background-color: #213329 !important;
+        }
+
+        [data-ogsc] .dm-text {
+            color: #EAF0E8 !important;
+        }
+
+        [data-ogsc] .dm-text-muted {
+            color: #A9BDAE !important;
+        }
+
+        [data-ogsc] .dm-accent {
+            color: #8FD3A9 !important;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+    </style>
+
+    <!--[if mso]>
+		<style type="text/css">
+			body {background-color: #dde0e1 !important;}
+         body, table, td, p, a {font-family: 'Bricolage Grotesque', Arial, Helvetica, sans-serif !important;}
+         table {border-spacing: 0 !important;border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+
+</head>
+
+<body class="body dm-body" xml:lang="en" style="margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+    <div class="dm-body"
+        style="width: 100%; table-layout:fixed; background-color: #dde0e1; color:#3d3d3d; font-family:'Bricolage Grotesque', Arial, Helvetica, sans-serif; font-size: 16px; margin: 0 auto 40px;">
+        <div class="dm-bg"
+            style="max-width: 600px; background-color: #fafdfe; color:#3d3d3d; font-family: 'Bricolage Grotesque', Arial, Helvetica, sans-serif; font-size: 16px; box-shadow: 0 0 10px rgba(0, 0, 0, .2);margin: 0 auto;">
+
+            <div
+                style="font-size: 0px; color: #fafdfe; mso-line-height-rule: exactly; line-height: 0px; display: none; max-width: 0px; max-height: 0px; opacity: 0; overflow: hidden; mso-hide:all;">
+                This is our preheader text which can be 35-190 characters but 85-100 is recommended.
+                &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;
+            </div>
+
+            <!--[if mso]>
+            <table width="600" align="center" style="border-spacing: 0; border-collapse:collapse; color: #3d3d3d;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+            <table class="dm-bg" align="center"
+                style="border-spacing:0; border-collapse: collapse; color:#3d3d3d; font-family: 'Bricolage Grotesque', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #EAF0E8; margin: 0 auto; padding:0; width: 100%; max-width: 600px;"
+                role="presentation">
+
+                <tr>
+                    <td class="dm-bg" style="padding: 13px 0;background-color: #EAF0E8;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td class="padding dm-bg" style="padding: 0 0 0 32px; background-color: #EAF0E8;">
+                                    <p class="preheader-p-desktop dm-text-muted"
+                                        style="margin: 0; font-size: 12px; color: #4a5b50;">
+                                        Candlelit strings, a night
+                                        market and more
+                                        this November.</p>
+                                    <p class="preheader-p-mobile dm-text-muted"
+                                        style="margin: 0; font-size: 12px; color: #4a5b50; display: none;">Your November
+                                        program</p>
+                                </td>
+                                <td class="padding dm-bg"
+                                    style="padding: 0 32px; text-align: right;background-color: #EAF0E8;">
+                                    <p style="margin: 0;font-size: 12px;">
+                                        <a class="dm-text-muted" href="{{view in browser}}"
+                                            style="text-decoration: underline; color: #4a5b50; font-size: 12px;">View in
+                                            browser</a>
+                                    </p>
+                                    <!--[if mso]>
+                              <div style="font-size:0; mso-line-height-rule:exactly; line-height:0; display:none;    mso-hide:all;">
+                              &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+                              </div>
+                            <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td class="column-wrapper dm-bg"
+                                    style="padding: 12px 0; font-size: 0; text-align: center;background-color: #EAF0E8;">
+
+                                    <!--[if mso]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="300" valign="top" style="padding:0;">
+                           <![endif]-->
+
+                                    <table class="column header-left-half"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td align="left" class="padding dm-bg"
+                                                style="padding: 0 32px; background-color: #EAF0E8;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td class="dm-bg" style="background-color: #EAF0E8;">
+                                                            <a href="https://example.com/1">
+
+                                                                <img class="dm-logo-light"
+                                                                    src="https://cdn.klaviyomail.com/company/RD8wra/images/69f49c1e-b4a6-4c20-80d5-1060d52e3479.png"
+                                                                    alt="Logo" width="18" height="22"
+                                                                    style="border: 0; max-width: 18px; height: auto;">
+
+                                                                <!--[if !mso]><!-->
+                                                                <img class="dm-logo-dark"
+                                                                    src="https://cdn.klaviyomail.com/company/RD8wra/images/6fb52941-f305-40a9-9059-549c246224d7.png"
+                                                                    alt="Logo" width="18" height="22"
+                                                                    style="border: 0; max-width: 18px; height: auto; display: none;">
+                                                                <!--<![endif]-->
+                                                            </a>
+                                                        </td>
+                                                        <td class="dm-bg"
+                                                            style="padding-left: 15px; background-color: #EAF0E8;">
+                                                            <a class="dm-text" href="https://example.com/2"
+                                                                style="text-decoration: none; font-size: 26px; font-weight: bold; color: #1e4d3a;">
+                                                                Fernhall
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                              </td>
+                              <td width="300" valign="top" style="padding:0;">
+                           <![endif]-->
+
+                                    <table class="column header-right-half"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td align="right" class="padding dm-bg"
+                                                style="padding: 0 32px; width: 300px; background-color: #EAF0E8;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: center;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td class="mobile-display-none dm-bg"
+                                                            style="padding-right: 22px; background-color: #EAF0E8;">
+                                                            <a class="dm-accent" href="https://example.com/3"
+                                                                target="_blank"
+                                                                style="font-size: 14px; font-weight: bold; color: #1e4d3a;">Events</a>
+                                                        </td>
+                                                        <td class="mobile-display-none dm-bg"
+                                                            style="background-color: #EAF0E8;">
+                                                            <a class="dm-accent" href="https://example.com/4"
+                                                                target="_blank"
+                                                                style="font-size: 14px; font-weight: bold; color: #1e4d3a;">Visit</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0; background-color: #1E4D3A;">
+                        <img src="https://cdn.klaviyomail.com/company/RD8wra/images/09728de0-8949-427e-a2ac-9a13e5d69ee3.png"
+                            alt="PNG Banner" style="display: block; margin: 0 auto; max-width: 100%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0; background-color: #1E4D3A; background: linear-gradient(#1E4D3A,#1E4D3A);">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td class="padding" style="padding: 24px 32px 56px;">
+                                    <h1 class="mob-font-38"
+                                        style="margin: 0; font-size: 52px; font-weight: bold; color: #EAF0E8; padding-bottom: 18px;">
+                                        Your
+                                        November<br>
+                                        under glass</h1>
+                                    <p style="margin: 0; font-size: 18px; color: #c9d8cc;">Candlelit strings in the Palm
+                                        House, a night market along the
+                                        fern walk and a morning of terrarium building. Here’s everything
+                                        on this month.</p>
+
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                            <td align="left" style="padding: 36px 0 0;">
+                                                <table class="btn-mob-full-width" align="left" role="presentation"
+                                                    style="border-spacing: 0;text-align: center;">
+
+                                                    <tr>
+                                                        <td align="left">
+
+                                                            <!--[if mso]>
+                                                                <v:roundrect
+                                                                xmlns_v="urn:schemas-microsoft-com:vml"
+                                                                xmlns_w="urn:schemas-microsoft-com:office:word" href="https://example.com/5" style="height: 39.7pt; width: 213pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#F0B24A" fillcolor="#F0B24A">
+                                                                <w:anchorlock/>
+                                                                <center style="color: #15241C; font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 600;">See the November program</center>
+                                                                </v:roundrect>
+                                                            <![endif]-->
+
+                                                            <a href="https://example.com/5" class="button"
+                                                                target="_blank"
+                                                                style="font-size: 17px; font-weight: bold; text-decoration: none; color: #15241C; background-color: #F0B24A; padding: 15px 27px; border: 1px solid #F0B24A; border-radius: 30px;display: block; mso-hide: all;">
+                                                                See the November program
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="padding" style="padding: 48px 32px;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td style="padding: 0;">
+                                    <img src="https://cdn.klaviyomail.com/company/RD8wra/images/07860035-50c2-43ce-a563-6cbaae4beccc.png"
+                                        alt="Candles"
+                                        style="border: 0; display: block; margin: 0 auto; max-width: 100%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="dm-card" style="padding: 0; background-color:#FFFFFF ;">
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                            <td class="mob-pad-20" style="padding: 0 28px;">
+                                                <table width="100%" style="border-spacing: 0;" role="presentation">
+                                                    <tr>
+                                                        <td style="padding: 30px 0 8px;">
+                                                            <p class="dm-accent"
+                                                                style="margin: 0; font-size: 15px; font-weight: bold; color: #1e4d3a;">
+                                                                Friday 6
+                                                                November, 20:00</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0 0 10px;">
+                                                            <h3 class="mob-font-28 dm-text"
+                                                                style="margin: 0; font-size: 34px; color: #15241C; font-weight: bold;">
+                                                                Candlelight strings<br>
+                                                                in the Palm House</h3>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0;">
+                                                            <p class="dm-text-muted"
+                                                                style="margin: 0; font-size: 16px; color: #4a5b50;">The
+                                                                Aurelia Quartet plays Vivaldi’s
+                                                                Winter and a set of
+                                                                film
+                                                                scores, lit only by candles among the palms. Doors open
+                                                                at
+                                                                19:30, with mulled wine at the bar.</p>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td align="left" style="padding: 22px 0 34px;">
+                                                            <table class="two-btns-table-full-width" align="left"
+                                                                role="presentation" style="border-spacing: 0;">
+
+                                                                <tr>
+                                                                    <td align="left">
+
+                                                                        <!--[if mso]>
+                                                                            <v:roundrect
+                                                                            xmlns_v="urn:schemas-microsoft-com:vml"
+                                                                            xmlns_w="urn:schemas-microsoft-com:office:word" href="https://example.com/6" style="height: 34.5pt; width: 124pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#1E4D3A" fillcolor="#1E4D3A">
+                                                                            <w:anchorlock/>
+                                                                            <center style="color: #EAF0E8; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 600;">Book seats</center>
+                                                                            </v:roundrect>
+                                                                        <![endif]-->
+
+                                                                        <a href="https://example.com/6" class="button"
+                                                                            target="_blank"
+                                                                            style="font-size: 16px; font-weight: bold; text-decoration: none; color: #EAF0E8; background-color: #1E4D3A; padding: 15px 26px; border: 1px solid #1E4D3A; border-radius: 30px;display: inline-block; mso-hide: all;">
+                                                                            Book seats
+                                                                        </a>
+
+                                                                    </td>
+                                                                    <td style="padding-left: 16px;">
+                                                                        <a class="dm-text-muted"
+                                                                            href="https://example.com/7" target="_blank"
+                                                                            style="font-size: 15px; font-weight: bold; color: #4a5b50;">Tickets
+                                                                            from
+                                                                            €24</a>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </table>
+                                                        </td>
+
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0 0 48px;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td class="padding" style="padding: 0 32px 22px;">
+                                    <h2 class="mob-font-22 dm-text"
+                                        style="margin: 0; font-size: 24px; font-weight: bold; color: #15241C;">Also this
+                                        month</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: center;">
+
+                                    <!--[if mso]>
+                                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                        <td width="300" valign="top" style="padding:0;">
+                                    <![endif]-->
+
+                                    <table class="column column-one-half"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td class="padding pad-bottom-mob" style="padding: 0 12px 0 32px;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td style="padding: 0;">
+                                                            <img src="https://cdn.klaviyomail.com/company/RD8wra/images/a49f0f29-6c58-4a19-ae4f-c317553cc5ef.png"
+                                                                alt="Terrarium" width="560"
+                                                                style="border: 0; display: block; max-width: 100%;">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="dm-card"
+                                                            style="padding: 0; background-color:#FFFFFF ;">
+                                                            <table width="100%" style="border-spacing: 0;"
+                                                                role="presentation">
+                                                                <tr>
+                                                                    <td class="mob-pad-20" style="padding: 0 20px;">
+                                                                        <table width="100%" style="border-spacing: 0;"
+                                                                            role="presentation">
+                                                                            <tr>
+                                                                                <td style="padding: 30px 0 8px;">
+                                                                                    <p class="dm-accent"
+                                                                                        style="margin: 0; font-size: 14px; font-weight: bold; color: #1e4d3a;">
+                                                                                        Saturday 14 November, 11:00</p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="padding: 0 0 10px;">
+                                                                                    <h3 class="dm-text"
+                                                                                        style="margin: 0; font-size: 22px; color: #15241C; font-weight: bold;">
+                                                                                        Terrarium
+                                                                                        workshop</h3>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="padding: 0;">
+                                                                                    <p class="dm-text-muted"
+                                                                                        style="margin: 0; font-size: 15px; color: #4a5b50;">
+                                                                                        Build a sealed terrarium to
+                                                                                        take home, using plants from
+                                                                                        our nursery. €35, all materials
+                                                                                        included.</p>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <td align="left"
+                                                                                    style="padding: 22px 0 34px;">
+                                                                                    <table class="btn-mob-full-width"
+                                                                                        align="left" role="presentation"
+                                                                                        style="border-spacing: 0;">
+
+                                                                                        <tr>
+                                                                                            <td align="left">
+
+                                                                                                <!--[if mso]>
+                                                                                                    <v:roundrect
+                                                                                                    xmlns_v="urn:schemas-microsoft-com:vml"
+                                                                                                    xmlns_w="urn:schemas-microsoft-com:office:word" href="https://example.com/8" style="height: 36pt; width: 116.2pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#1E4D3A" fillcolor="#FFFFFF">
+                                                                                                    <w:anchorlock/>
+                                                                                                    <center style="color: #1E4D3A; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 600;">Reserve a place</center>
+                                                                                                    </v:roundrect>
+                                                                                                <![endif]-->
+
+                                                                                                <a href="https://example.com/8"
+                                                                                                    class="button dm-btn-outline"
+                                                                                                    target="_blank"
+                                                                                                    style="font-size: 15px; font-weight: bold; text-decoration: none; color: #1E4D3A; background-color: #FFFFFF; padding: 12px 18px; border: 2px solid #1E4D3A; border-radius: 30px;display:block; mso-hide: all;">
+                                                                                                    Reserve a place
+                                                                                                </a>
+
+                                                                                            </td>
+                                                                                        </tr>
+
+                                                                                    </table>
+                                                                                </td>
+
+                                                                            </tr>
+
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                                        </td>
+                                        <td width="300" valign="top" style="padding:0;">
+                                    <![endif]-->
+
+                                    <table class="column column-one-half"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td class="padding pad-bottom-mob" style="padding: 0 12px 0 32px;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td style="padding: 0;">
+                                                            <img src="https://cdn.klaviyomail.com/company/RD8wra/images/60445052-b0e0-4359-a104-c3a14cf83c40.png"
+                                                                alt="Market" width="560"
+                                                                style="border: 0; display: block; max-width: 100%;">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="dm-card"
+                                                            style="padding: 0; background-color:#FFFFFF ;">
+                                                            <table width="100%" style="border-spacing: 0;"
+                                                                role="presentation">
+                                                                <tr>
+                                                                    <td style="padding: 0 20px;">
+                                                                        <table width="100%" style="border-spacing: 0;"
+                                                                            role="presentation">
+                                                                            <tr>
+                                                                                <td style="padding: 30px 0 8px;">
+                                                                                    <p class="dm-accent"
+                                                                                        style="margin: 0; font-size: 14px; font-weight: bold; color: #1e4d3a;">
+                                                                                        20–21 November, 17:00–22:00</p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="padding: 0 0 10px;">
+                                                                                    <h3 class="dm-text"
+                                                                                        style="margin: 0; font-size: 22px; color: #15241C; font-weight: bold;">
+                                                                                        Night garden market</h3>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="padding: 0;">
+                                                                                    <p class="dm-text-muted"
+                                                                                        style="margin: 0; font-size: 15px; color: #4a5b50;">
+                                                                                        Local makers, mulled cider and
+                                                                                        lanterns
+                                                                                        along the fern walk. Free entry,
+                                                                                        no
+                                                                                        booking needed.</p>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <td align="left"
+                                                                                    style="padding: 22px 0 34px;">
+                                                                                    <table class="btn-mob-full-width"
+                                                                                        align="left" role="presentation"
+                                                                                        style="border-spacing: 0;">
+
+                                                                                        <tr>
+                                                                                            <td align="left">
+
+                                                                                                <!--[if mso]>
+                                                                                                    <v:roundrect
+                                                                                                    xmlns_v="urn:schemas-microsoft-com:vml"
+                                                                                                    xmlns_w="urn:schemas-microsoft-com:office:word" href="https://example.com/9" style="height: 36pt; width: 116.2pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#1E4D3A" fillcolor="#FFFFFF">
+                                                                                                    <w:anchorlock/>
+                                                                                                    <center style="color: #1E4D3A; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 600;">Add to calendar</center>
+                                                                                                    </v:roundrect>
+                                                                                                <![endif]-->
+
+                                                                                                <a href="https://example.com/9"
+                                                                                                    class="button dm-btn-outline"
+                                                                                                    target="_blank"
+                                                                                                    style="font-size: 15px; font-weight: bold; text-decoration: none; color: #1E4D3A; background-color: #FFFFFF; padding: 12px 18px; border: 2px solid #1E4D3A; border-radius: 30px;display:block; mso-hide: all;">
+                                                                                                    Add to calendar
+                                                                                                </a>
+
+                                                                                            </td>
+                                                                                        </tr>
+
+                                                                                    </table>
+                                                                                </td>
+
+                                                                            </tr>
+
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td
+                        style="padding: 44px 0; background: linear-gradient(#F0B24A,#F0B24A);background-color: #F0B24A;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td class="padding" style="padding: 0 32px;">
+                                    <table class="content" width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                            <td style="padding-bottom: 8px;">
+                                                <h3
+                                                    style="margin: 0; font-size: 15px; font-weight: bold; color: #15241C;">
+                                                    Save the date
+                                                </h3>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h2 class="mob-font-28"
+                                                    style="margin: 0; font-size: 34px; font-weight: bold; color: #15241C;line-height: normal;">
+                                                    Winter solstice supper,<br> Monday 21 December</h2>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-top: 10px;">
+                                                <p style="margin: 0; font-size: 16px; color: #15241C;">One long table
+                                                    under the glass, a four-course
+                                                    seasonal menu and the
+                                                    Palm House lit by candlelight. Tickets go on sale 1 December.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="padding: 24px 0 0;">
+                                                <table class="btn-mob-full-width" align="left" role="presentation"
+                                                    style="border-spacing: 0;">
+
+                                                    <tr>
+                                                        <td align="left">
+
+                                                            <!--[if mso]>
+                                                                <v:roundrect
+                                                                xmlns_v="urn:schemas-microsoft-com:vml"
+                                                                xmlns_w="urn:schemas-microsoft-com:office:word" href="https://example.com/10" style="height: 41pt; width: 222.4pt; v-text-anchor: middle;" arcsize="50%" strokecolor="#1E4D3A" fillcolor="#1E4D3A">
+                                                                <w:anchorlock/>
+                                                                <center style="color: #EAF0E8; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 600;">Get notified when tickets open</center>
+                                                                </v:roundrect>
+                                                            <![endif]-->
+
+                                                            <a href="https://example.com/10" class="button"
+                                                                target="_blank"
+                                                                style="font-size: 16px; font-weight: bold; text-decoration: none; color: #EAF0E8; background-color: #1E4D3A; padding: 16px 28px; border: 1px solid #1E4D3A; border-radius: 30px;display:block; mso-hide: all;">
+                                                                Get notified when tickets open
+                                                            </a>
+
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                            <tr>
+                                <td class="column-wrapper" style="padding: 40px 0; font-size: 0; text-align: center;">
+
+                                    <!--[if mso]>
+                                        <table width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                        <td width="300" valign="top" style="padding:0;">
+                                    <![endif]-->
+
+                                    <table class="column column-one-half"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td class="padding" style="padding: 0 32px;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td>
+                                                            <h3 class="dm-text"
+                                                                style="margin: 0; font-size: 17px; font-weight: bold; color: #15241C;">
+                                                                Find us</h3>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p class="dm-text-muted"
+                                                                style="margin: 0; font-size: 15px; color: #4a5b50;">
+                                                                Fernhall Glasshouse
+                                                                14 Ferry Lane, Riverside</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="margin: 0;">
+                                                                <a class="dm-accent" href="https://example.com/11"
+                                                                    target="_blank"
+                                                                    style="text-decoration: underline;font-size: 15px; font-weight: bold; color: #1e4d3a;">Get
+                                                                    directions</a>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                                        </td>
+                                        <td width="300" valign="top" style="padding:0;">
+                                    <![endif]-->
+
+                                    <table class="column column-one-half"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td class="padding mob-pad-top" style="padding: 0 32px;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td>
+                                                            <h3 class="dm-text"
+                                                                style="margin: 0; font-size: 17px; font-weight: bold; color: #15241C;">
+                                                                Opening hours</h3>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p class="dm-text-muted"
+                                                                style="margin: 0; font-size: 15px; color: #4a5b50;">
+                                                                Tuesday to Sunday, 10:00–18:00
+                                                                Open late on event nights</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="margin: 0;">
+                                                                <a class="dm-accent" href="https://example.com/12"
+                                                                    target="_blank"
+                                                                    style="text-decoration: underline;font-size: 15px; font-weight: bold; color: #1e4d3a;">Plan
+                                                                    your visit</a>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 0; background-color: #143628;">
+                        <table width="100%" style="border-spacing: 0;" role="presentation">
+
+                            <tr>
+                                <td class="column-wrapper"
+                                    style="padding: 40px 0 0; font-size: 0; text-align: center;background-color: #143628;">
+
+                                    <!--[if mso]>
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                    <tr>
+                                    <td width="200" valign="top" style="padding:0;">
+                                <![endif]-->
+
+                                    <table class="column column-one-third"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td class="padding" style="padding: 0 32px;background-color: #143628;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td style="background-color: #143628;">
+                                                            <a href="https://example.com/13">
+                                                                <img src="https://cdn.klaviyomail.com/company/RD8wra/images/6fb52941-f305-40a9-9059-549c246224d7.png"
+                                                                    alt="Logo" width="18" height="22"
+                                                                    style="border: 0; max-width: 18px; height: auto;">
+                                                            </a>
+                                                        </td>
+                                                        <td style="padding-left: 15px; background-color: #143628;">
+                                                            <a href="https://example.com/14"
+                                                                style="text-decoration: none; font-size: 24px; font-weight: bold; color: #EAF0E8;">
+                                                                Fernhall
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+							        </td>
+                                    <td width="200" valign="top" style="padding: 0;">
+						        <![endif]-->
+
+                                    <table class="column column-none"
+                                        style="border-spacing:0;color:#ffffff;width:100%;max-width:200px;display:inline-block;vertical-align:top;"
+                                        role="presentation">
+                                        <tr>
+                                            <td class="padding column-none"
+                                                style="padding: 0;background-color: #143628;">
+                                                <table class="content" style="border-spacing:0;width:100%;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td style="padding: 0;">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                                    </td>
+                                    <td width="200" valign="top" style="padding:0;">
+                                <![endif]-->
+
+                                    <table class="column column-one-third"
+                                        style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;"
+                                        role="presentation">
+                                        <tr>
+                                            <td align="right" class="padding mob-pad-top-18 mob-align-left"
+                                                style="padding: 0 32px 0 0; background-color: #143628; width: 200px;">
+
+                                                <table class="content" style="border-spacing: 0; text-align: left;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td style="padding-right: 18px; background-color: #143628;">
+                                                            <a href="https://example.com/15" target="_blank"
+                                                                style="font-size: 14px; font-weight: bold; color: #EAF0E8;text-decoration: underline;">Instagram</a>
+                                                        </td>
+                                                        <td style="background-color: #143628;">
+                                                            <a href="https://example.com/16" target="_blank"
+                                                                style="font-size: 14px; font-weight: bold; color: #EAF0E8;text-decoration: underline;">Facebook</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                <![endif]-->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 28px 0 50px; background-color: #143628;">
+                                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                                        <tr>
+                                            <td class="padding" style="padding: 0 32px; background-color: #143628;">
+                                                <table class="content" width="100%" style="border-spacing: 0;"
+                                                    role="presentation">
+                                                    <tr>
+                                                        <td style="padding-bottom: 16px; background-color: #143628;">
+                                                            <p style="font-size: 13px; margin: 0; color: #A9BDAE;">
+                                                                You’re receiving this
+                                                                email
+                                                                because you signed up for
+                                                                news from Fernhall Glasshouse, 14
+                                                                Ferry Lane, Riverside.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td
+                                                            style="padding-right: 18px; display: inline; background-color: #143628;">
+                                                            <a href="https://example.com/17" target="_blank"
+                                                                style="font-size: 13px; font-weight: bold; color: #EAF0E8;text-decoration: underline;">
+                                                                Update preferences</a>
+                                                        </td>
+                                                        <td style="display: inline; background-color: #143628;">
+                                                            <a href="https://example.com/18" target="_blank"
+                                                                style="font-size: 13px; font-weight: bold; color: #EAF0E8;text-decoration: underline;">
+                                                                Unsubscribe
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+
+            <!--[if mso]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+
+        </div>
+    </div>
+
+</body>
+
+</html>
